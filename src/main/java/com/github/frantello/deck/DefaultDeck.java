@@ -70,7 +70,7 @@ public class DefaultDeck implements Deck {
             return Optional.empty();
         }
 
-        return Optional.of(cards.remove(0));
+        return Optional.of(cards.remove(cards.size() - 1));
     }
 
     /**
